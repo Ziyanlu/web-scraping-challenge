@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 1,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -14,7 +14,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -31,7 +31,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -44,7 +44,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 4,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -53,7 +53,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 5,
    "metadata": {
     "scrolled": true
    },
@@ -197,6 +197,15 @@
     "    print(title)\n",
     "    print(paragraph)\n",
     "    print('------------------------------------------------------------------')\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
     "most_recent_title = titles[0]\n",
     "most_recent_paragraph = paragraphs[0]"
    ]
@@ -269,7 +278,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "<article alt=\"Heat Shield Construction for NASA's InSight Mission\" class=\"carousel_item\" style=\"background-image: url('/spaceimages/images/wallpaper/PIA19404-1920x1200.jpg');\">\n",
+      "<article alt=\"A Storm of Change\" class=\"carousel_item\" style=\"background-image: url('/spaceimages/images/wallpaper/PIA23436-1920x1200.jpg');\">\n",
       "<div class=\"default floating_text_area ms-layer\">\n",
       "<h2 class=\"category_title\">\n",
       "</h2>\n",
@@ -277,11 +286,11 @@
       "\t\t\t\t  FEATURED IMAGE\n",
       "\t\t\t\t</h2>\n",
       "<h1 class=\"media_feature_title\">\n",
-      "\t\t\t\t  Heat Shield Construction for NASA's InSight Mission\t\t\t\t</h1>\n",
+      "\t\t\t\t  A Storm of Change\t\t\t\t</h1>\n",
       "<div class=\"description\">\n",
       "</div>\n",
       "<footer>\n",
-      "<a class=\"button fancybox\" data-description=\"In this February 2015 scene from a clean room at Lockheed Martin Space Systems, Denver, specialists are building the heat shield to protect NASA's InSight spacecraft when it is speeding through the Martian atmosphere.\" data-fancybox-group=\"images\" data-fancybox-href=\"/spaceimages/images/mediumsize/PIA19404_ip.jpg\" data-link=\"/spaceimages/details.php?id=PIA19404\" data-title=\"Heat Shield Construction for NASA's InSight Mission\" id=\"full_image\">\n",
+      "<a class=\"button fancybox\" data-description=\"NASAs Juno spacecraft shows Jupiters iconic Great Red Spot, a storm that has been raging since at least the 1800s.\" data-fancybox-group=\"images\" data-fancybox-href=\"/spaceimages/images/mediumsize/PIA23436_ip.jpg\" data-link=\"/spaceimages/details.php?id=PIA23436\" data-title=\"A Storm of Change\" id=\"full_image\">\n",
       "\t\t\t\t\tFULL IMAGE\n",
       "\t\t\t\t  </a>\n",
       "</footer>\n",
@@ -308,7 +317,7 @@
     {
      "data": {
       "text/plain": [
-       "'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA19404-1920x1200.jpg'"
+       "'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA23436-1920x1200.jpg'"
       ]
      },
      "execution_count": 12,
@@ -366,7 +375,9 @@
     {
      "data": {
       "text/plain": [
-       "['InSight sol 336 (2019-11-06) low -101.4ºC (-150.6ºF) high -24.0ºC (-11.2ºF)\\nwinds from the SSE at 4.7 m/s (10.6 mph) gusting to 18.7 m/s (41.9 mph)\\npressure at 6.90 hPapic.twitter.com/RIAb2fzSY4',\n",
+       "['InSight sol 338 (2019-11-08) low -102.5ºC (-152.5ºF) high -24.0ºC (-11.1ºF)\\nwinds from the SSE at 5.3 m/s (11.9 mph) gusting to 19.6 m/s (43.9 mph)\\npressure at 6.90 hPapic.twitter.com/VxWNunPM5q',\n",
+       " 'InSight sol 337 (2019-11-07) low -101.8ºC (-151.2ºF) high -24.0ºC (-11.3ºF)\\nwinds from the SSE at 4.9 m/s (11.0 mph) gusting to 21.2 m/s (47.5 mph)\\npressure at 6.90 hPa',\n",
+       " 'InSight sol 336 (2019-11-06) low -101.4ºC (-150.6ºF) high -24.0ºC (-11.2ºF)\\nwinds from the SSE at 4.7 m/s (10.6 mph) gusting to 18.7 m/s (41.9 mph)\\npressure at 6.90 hPapic.twitter.com/RIAb2fzSY4',\n",
        " 'InSight sol 335 (2019-11-05) low -100.6ºC (-149.1ºF) high -24.3ºC (-11.8ºF)\\nwinds from the SSE at 4.9 m/s (10.9 mph) gusting to 19.9 m/s (44.5 mph)\\npressure at 6.90 hPa',\n",
        " 'InSight sol 334 (2019-11-04) low -100.0ºC (-148.1ºF) high -23.8ºC (-10.8ºF)\\nwinds from the SSW at 5.1 m/s (11.4 mph) gusting to 19.9 m/s (44.4 mph)\\npressure at 7.00 hPapic.twitter.com/D4EX1MROay',\n",
        " 'InSight sol 333 (2019-11-03) low -100.8ºC (-149.4ºF) high -25.8ºC (-14.4ºF)\\nwinds from the SSW at 4.9 m/s (11.0 mph) gusting to 18.0 m/s (40.4 mph)\\npressure at 6.90 hPa',\n",
@@ -383,9 +394,7 @@
        " 'InSight sol 322 (2019-10-23) pressure at 7.00 hPa',\n",
        " 'InSight sol 321 (2019-10-22) low -102.9ºC (-153.2ºF) high -24.6ºC (-12.3ºF)\\nwinds from the SSE at 4.8 m/s (10.8 mph) gusting to 18.6 m/s (41.6 mph)\\npressure at 7.10 hPapic.twitter.com/FsE4d1Fskt',\n",
        " 'InSight sol 320 (2019-10-21) low -102.4ºC (-152.3ºF) high -25.6ºC (-14.0ºF)\\nwinds from the SSE at 4.7 m/s (10.5 mph) gusting to 18.5 m/s (41.4 mph)\\npressure at 7.10 hPapic.twitter.com/TxQmtXP7xo',\n",
-       " 'InSight sol 319 (2019-10-19) low -101.5ºC (-150.7ºF) high -25.5ºC (-13.9ºF)\\nwinds from the SSE at 4.6 m/s (10.4 mph) gusting to 18.4 m/s (41.2 mph)\\npressure at 7.10 hPapic.twitter.com/gdBUdujdVM',\n",
-       " 'InSight sol 318 (2019-10-18) low -102.6ºC (-152.6ºF) high -24.6ºC (-12.4ºF)\\npressure at 7.10 hPa',\n",
-       " 'InSight sol 317 (2019-10-18) low -103.2ºC (-153.8ºF) high -26.2ºC (-15.2ºF)\\nwinds from the SSE at 5.6 m/s (12.5 mph) gusting to 22.2 m/s (49.7 mph)\\npressure at 7.10 hPapic.twitter.com/LNDEvGwVDw']"
+       " 'InSight sol 319 (2019-10-19) low -101.5ºC (-150.7ºF) high -25.5ºC (-13.9ºF)\\nwinds from the SSE at 4.6 m/s (10.4 mph) gusting to 18.4 m/s (41.2 mph)\\npressure at 7.10 hPapic.twitter.com/gdBUdujdVM']"
       ]
      },
      "execution_count": 16,
@@ -410,9 +419,9 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "InSight sol 336 (2019-11-06) low -101.4ºC (-150.6ºF) high -24.0ºC (-11.2ºF)\n",
-      "winds from the SSE at 4.7 m/s (10.6 mph) gusting to 18.7 m/s (41.9 mph)\n",
-      "pressure at 6.90 hPapic.twitter.com/RIAb2fzSY4\n"
+      "InSight sol 338 (2019-11-08) low -102.5ºC (-152.5ºF) high -24.0ºC (-11.1ºF)\n",
+      "winds from the SSE at 5.3 m/s (11.9 mph) gusting to 19.6 m/s (43.9 mph)\n",
+      "pressure at 6.90 hPapic.twitter.com/VxWNunPM5q\n"
      ]
     }
    ],
@@ -835,14 +844,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
+   "execution_count": 30,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "{'news_title': \"NASA's Mars 2020 Heads Into the Test Chamber\", 'news_paragraph': 'In this time-lapse video taken at JPL, engineers move the Mars 2020 rover into a large vacuum chamber for testing in Mars-like environmental conditions.', 'featuredimage_url': 'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA19404-1920x1200.jpg', 'marsweather': 'InSight sol 336 (2019-11-06) low -101.4ºC (-150.6ºF) high -24.0ºC (-11.2ºF)\\nwinds from the SSE at 4.7 m/s (10.6 mph) gusting to 18.7 m/s (41.9 mph)\\npressure at 6.90 hPapic.twitter.com/RIAb2fzSY4', 'marsfacts': None, 'hemisphereimage_urls': [{'title': 'Cerberus Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/cerberus_enhanced'}, {'title': 'Schiaparelli Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/schiaparelli_enhanced'}, {'title': 'Syrtis Major Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/syrtis_major_enhanced'}, {'title': 'Valles Marineris Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/valles_marineris_enhanced'}]}\n"
+      "{'news_title': \"NASA's Mars 2020 Heads Into the Test Chamber\", 'news_paragraph': 'In this time-lapse video taken at JPL, engineers move the Mars 2020 rover into a large vacuum chamber for testing in Mars-like environmental conditions.', 'featuredimage_url': 'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA23436-1920x1200.jpg', 'marsweather': 'InSight sol 338 (2019-11-08) low -102.5ºC (-152.5ºF) high -24.0ºC (-11.1ºF)\\nwinds from the SSE at 5.3 m/s (11.9 mph) gusting to 19.6 m/s (43.9 mph)\\npressure at 6.90 hPapic.twitter.com/VxWNunPM5q', 'marsfacts': None, 'hemisphereimage_urls': [{'title': 'Cerberus Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/cerberus_enhanced'}, {'title': 'Schiaparelli Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/schiaparelli_enhanced'}, {'title': 'Syrtis Major Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/syrtis_major_enhanced'}, {'title': 'Valles Marineris Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/valles_marineris_enhanced'}]}\n"
      ]
     }
    ],
@@ -858,6 +867,81 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Store mars_info in MongoDB"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pymongo\n",
+    "conn = 'mongodb://localhost:27017'\n",
+    "client = pymongo.MongoClient(conn)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "db = client.MarsDB"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'_id': ObjectId('5dc63becf9a762e80b578afc'), 'news_title': \"NASA's Mars 2020 Heads Into the Test Chamber\", 'news_paragraph': 'In this time-lapse video taken at JPL, engineers move the Mars 2020 rover into a large vacuum chamber for testing in Mars-like environmental conditions.', 'featuredimage_url': 'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA19046-1920x1200.jpg', 'marsweather': 'InSight sol 336 (2019-11-06) low -101.4ºC (-150.6ºF) high -24.0ºC (-11.2ºF)\\nwinds from the SSE at 4.7 m/s (10.6 mph) gusting to 18.7 m/s (41.9 mph)\\npressure at 6.90 hPapic.twitter.com/RIAb2fzSY4', 'marsfacts': None, 'hemisphereimage_urls': [{'title': 'Cerberus Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/cerberus_enhanced'}, {'title': 'Schiaparelli Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/schiaparelli_enhanced'}, {'title': 'Syrtis Major Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/syrtis_major_enhanced'}, {'title': 'Valles Marineris Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/valles_marineris_enhanced'}]}\n",
+      "{'_id': ObjectId('5dc71bf1e25c798ec390ef64'), 'news_title': \"NASA's Mars 2020 Heads Into the Test Chamber\", 'news_paragraph': 'In this time-lapse video taken at JPL, engineers move the Mars 2020 rover into a large vacuum chamber for testing in Mars-like environmental conditions.', 'featuredimage_url': 'https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA23436-1920x1200.jpg', 'marsweather': 'InSight sol 338 (2019-11-08) low -102.5ºC (-152.5ºF) high -24.0ºC (-11.1ºF)\\nwinds from the SSE at 5.3 m/s (11.9 mph) gusting to 19.6 m/s (43.9 mph)\\npressure at 6.90 hPapic.twitter.com/VxWNunPM5q', 'marsfacts': None, 'hemisphereimage_urls': [{'title': 'Cerberus Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/cerberus_enhanced'}, {'title': 'Schiaparelli Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/schiaparelli_enhanced'}, {'title': 'Syrtis Major Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/syrtis_major_enhanced'}, {'title': 'Valles Marineris Hemisphere Enhanced', 'image_url': 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars/search/map/Mars/Viking/valles_marineris_enhanced'}]}\n"
+     ]
+    }
+   ],
+   "source": [
+    "mars = db.mars.find()\n",
+    "for info in mars:\n",
+    "    print(info)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<pymongo.results.InsertOneResult at 0x19d9b191a88>"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "db.mars.insert_one(\n",
+    "          {\"news_title\":most_recent_title,\n",
+    "           \"news_paragraph\":most_recent_paragraph,\n",
+    "           \"featuredimage_url\":featured_image_url,\n",
+    "           \"marsweather\":mars_weather,\n",
+    "           \"marsfacts\":html_table,\n",
+    "           \"hemisphereimage_urls\":hemisphere_image_urls\n",
+    "          }\n",
+    ")"
+   ]
+  },
+  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {},
@@ -870,6 +954,18 @@
    "display_name": "Python 3",
    "language": "python",
    "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
   },
   "varInspector": {
    "cols": {
